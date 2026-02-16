@@ -1,0 +1,16 @@
+pymongo
+streamlit
+langgraph
+openai
+google-generativeai
+pandas
+matplotlib
+pydantic
+requests
+geopy
+folium
+streamlit-folium
+groq
+plotly
+reportlab
+python-dotenv

@@ -1,0 +1,30 @@
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Streamlit
+.streamlit/
+secrets.toml
+
+# Environment variables (CRITICAL: Do not remove)
+.env
+
+# Database & Local Store
+audit_log.db
+audit_store.json
+memory_store.json
+
+# VS Code
+.vscode/
+
+# Cost Catalog Backups
+cost_catalog_versions/

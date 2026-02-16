@@ -1,0 +1,30 @@
+{
+  "version": "FY2025-v1",
+  "currency": "GBP",
+  "unit_costs": {
+    "fibre_material_per_m": 8.0,
+    "trench_civils_per_m": 25.0,
+    "labour_rate_per_day": 500.0,
+    "equipment_per_premise": 2000.0
+  },
+  "uplifts": {
+    "location_type": {
+      "urban": 1.05,
+      "semi-urban": 1.00,
+      "rural": 1.15
+    },
+    "terrain_type": {
+      "normal": 1.00,
+      "rocky": 1.25,
+      "water crossing": 1.40
+    },
+    "traffic_management": {
+      "yes": 1.08,
+      "no": 1.00
+    }
+  },
+  "overheads": {
+    "overhead_pct": 0.10,
+    "contingency_pct": 0.08
+  }
+}
